@@ -1,0 +1,27 @@
+
+.progress-container {
+    position:relative;
+    background: #9c9cba;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 20px;
+    width: 200px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    background-color: #950000;
+    border-radius: 5px;
+    height: 100%;
+    width: 10%;
+    transition: width 0.2s linear;
+  }
+  .progress_text{
+      position: absolute;
+      top:50%;
+      right:5px;
+      transform: translateY((-50%));
+      font:bold 10px "Quicksand",sans-serif;
+      color:white;
+  }
